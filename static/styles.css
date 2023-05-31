@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    flex-direction:column;
+    background-image:url(wood.png);
+    height:100vh;
+}
+
+nav{
+    margin-bottom:10px;
+    background-color:#694300;
+    opacity:0.9;
+}
+
+.text-color{
+    color:#ffcd88;
+}
+
+
+.navbar-light .navbar-toggler{
+    border-color:#ffcd88;
+}
+nav a{
+    text-align:center;
+}
+nav a:hover{
+    background-color:#694300;
+    opacity:0.5;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    overflow-y: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+label{
+    font-weight:bold;
+    margin-right:3px;
+}
+textarea{
+        background-image:url(paper1.jpg);
+}
